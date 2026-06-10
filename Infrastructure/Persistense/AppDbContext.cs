@@ -1,7 +1,7 @@
-using Infrastructure.Persistense.Confidurations;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Application.Persistence.Configurations;
+using Infrastructure.Persistense.Configurations;
 
 namespace Infrastructure.Data;
 

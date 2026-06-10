@@ -1,3 +1,5 @@
+using Domain.Enums;
+
 namespace Domain.Entities;
 
 public class Member
@@ -6,6 +8,7 @@ public class Member
     public string FullName { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
     public DateTime RegisteredAt { get; set; }
-
+    public string PasswordHash { get; set; } = "";
+    public ApplicationRole Role { get; set; }
     public List<Borrow> Borrows { get; set; } = new();
 }

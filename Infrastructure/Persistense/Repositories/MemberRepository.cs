@@ -1,6 +1,7 @@
 using Application.Interfaces.Repositories;
 using Domain.Entities;
 using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistense.Repositories;
 
@@ -8,8 +9,16 @@ public class MemberRepository(AppDbContext context) : IMemberRepository
 {
     public async Task AddAsync(Member member)
     {
-        context.Members.Add(member);
-        await context.SaveChangesAsync();
+        try
+        {
+            context.Members.Add(member);
+            await context.SaveChangesAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+            throw;
+        }
     }
 
     public async Task DeleteAsync(Member member)
@@ -22,6 +31,12 @@ public class MemberRepository(AppDbContext context) : IMemberRepository
     {
         return context.Members.AsQueryable();
     }
+
+    public Task<Member?> GetByEmailAsync(string email)
+    {
+        return context.Members.FirstOrDefaultAsync(m => m.Email == email);
+    }
+
 
     public async Task<Member?> GetByIdAsync(int id)
     {

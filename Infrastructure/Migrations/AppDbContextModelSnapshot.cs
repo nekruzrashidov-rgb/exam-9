@@ -129,10 +129,17 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("character varying(150)");
 
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("RegisteredAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")
                         .HasDefaultValueSql("NOW()");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

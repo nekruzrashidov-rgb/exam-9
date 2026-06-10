@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SAm+TwU8Vxw=",
+  "dgSpecHash": "w/EZXl8TWNw=",
   "success": true,
   "projectFilePath": "C:\\Users\\2026\\OneDrive\\Desktop\\Softclub\\.Net1\\week5\\exam-9\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\2026\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.9\\microsoft.aspnetcore.authentication.jwtbearer.10.0.9.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.8\\microsoft.entityframeworkcore.10.0.8.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.8\\microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.8\\microsoft.entityframeworkcore.analyzers.10.0.8.nupkg.sha512",
@@ -22,6 +24,12 @@
     "C:\\Users\\2026\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.8\\microsoft.extensions.logging.abstractions.10.0.8.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\microsoft.extensions.options\\10.0.8\\microsoft.extensions.options.10.0.8.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.8\\microsoft.extensions.primitives.10.0.8.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.0.1\\microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\serilog.aspnetcore\\10.0.0\\serilog.aspnetcore.10.0.0.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\serilog.enrichers.environment\\3.0.1\\serilog.enrichers.environment.3.0.1.nupkg.sha512",
@@ -32,7 +40,8 @@
     "C:\\Users\\2026\\.nuget\\packages\\serilog.settings.configuration\\10.0.0\\serilog.settings.configuration.10.0.0.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\serilog.sinks.console\\6.1.1\\serilog.sinks.console.6.1.1.nupkg.sha512",
     "C:\\Users\\2026\\.nuget\\packages\\serilog.sinks.debug\\3.0.0\\serilog.sinks.debug.3.0.0.nupkg.sha512",
-    "C:\\Users\\2026\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512"
+    "C:\\Users\\2026\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512",
+    "C:\\Users\\2026\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

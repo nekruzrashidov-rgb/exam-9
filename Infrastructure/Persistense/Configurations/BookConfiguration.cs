@@ -1,4 +1,4 @@
-namespace Infrastructure.Persistense.Confidurations;
+namespace Infrastructure.Persistense.Configurations;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

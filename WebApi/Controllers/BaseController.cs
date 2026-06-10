@@ -7,6 +7,11 @@ public abstract class BaseController : ControllerBase
 {
     protected IActionResult HandleError<T>(Result<T> result)
     {
+        if (result.IsSuccess)
+        {
+            return Ok(result.Data);
+        }
+
         return result.ErrorType switch
         {
             ErrorType.Validation => BadRequest(result.Error),
